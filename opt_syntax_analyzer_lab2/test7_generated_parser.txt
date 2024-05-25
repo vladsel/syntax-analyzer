@@ -1,0 +1,18 @@
+<signal-program>
+    <program>
+        401   PROGRAM
+        <procedure-identifier>
+            <identifier>
+                1001   PARSERTEST7
+        4   ;
+        <block>
+            402   BEGIN
+            <statements-list>
+                <empty>
+
+Lexical error on Line 9 Column 13: Illegal symbol(s): endloop
+
+Syntactic error on Line 9 Column 13: ";" is passed
+Syntactic error on Line 9 Column 13: Keyword "ENDLOOP" is passed
+Syntactic error on Line 9 Column 13: Keyword "ENDLOOP" is passed
+

@@ -1,0 +1,16 @@
+<signal-program>
+    <program>
+        401   PROGRAM
+        <procedure-identifier>
+            <identifier>
+                1001   PARSERTEST5
+        4   ;
+        <block>
+            402   BEGIN
+            <statements-list>
+                <empty>
+
+Lexical error on Line 2 Column 13: Illegal symbol(s): <as>
+
+Syntactic error on Line 2 Column 13: Keyword "LOOP or CASE" is passed
+

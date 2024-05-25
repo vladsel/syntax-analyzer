@@ -1,0 +1,138 @@
+<signal-program>
+    <program>
+        401   PROGRAM
+        <procedure-identifier>
+            <identifier>
+                1001   PARSERTEST2
+        4   ;
+        <block>
+            402   BEGIN
+            <statements-list>
+                <statement>
+                    404   LOOP
+                    <statements-list>
+                        <statement>
+                            404   LOOP
+                            <statements-list>
+                                <statement>
+                                    406   CASE
+                                    <expression>
+                                        <multiplier>
+                                            <unsigned-integer>
+                                                501   100
+                                        <multipliers-list>
+                                            <multiplication-instruction>
+                                                5   /
+                                            <multiplier>
+                                                <unsigned-integer>
+                                                    502   5
+                                            <multipliers-list>
+                                                <multiplication-instruction>
+                                                    <empty>
+                                    407   OF
+                                    <alternatives-list>
+                                        <alternative>
+                                            <expression>
+                                                <multiplier>
+                                                    <unsigned-integer>
+                                                        503   10000
+                                                <multipliers-list>
+                                                    <multiplication-instruction>
+                                                        409   MOD
+                                                    <multiplier>
+                                                        <unsigned-integer>
+                                                            504   10
+                                                    <multipliers-list>
+                                                        <multiplication-instruction>
+                                                            <empty>
+                                            3   :
+                                                5   /
+                                                <statements-list>
+                                                    <statement>
+                                                        406   CASE
+                                                        <expression>
+                                                            <multiplier>
+                                                                <unsigned-integer>
+                                                                    502   5
+                                                            <multipliers-list>
+                                                                <multiplication-instruction>
+                                                                    1   *
+                                                                <multiplier>
+                                                                    <unsigned-integer>
+                                                                        505   2
+                                                                <multipliers-list>
+                                                                    <multiplication-instruction>
+                                                                        <empty>
+                                                        407   OF
+                                                        <alternatives-list>
+                                                            <alternative>
+                                                                <empty>
+                                                        408   ENDCASE
+                                                        4   ;
+                                                    <statements-list>
+                                                        <empty>
+                                                6   \
+                                        <alternatives-list>
+                                            <alternative>
+                                                <empty>
+                                    408   ENDCASE
+                                    4   ;
+                                <statements-list>
+                                    <empty>
+                            405   ENDLOOP
+                            4   ;
+                        <statements-list>
+                            <empty>
+                    405   ENDLOOP
+                    4   ;
+                <statements-list>
+                    <statement>
+                        406   CASE
+                        <expression>
+                            <multiplier>
+                                <variable-identifier>
+                                    <identifier>
+                                        1002   X
+                            <multipliers-list>
+                                <multiplication-instruction>
+                                    1   *
+                                <multiplier>
+                                    <variable-identifier>
+                                        <identifier>
+                                            1003   Y
+                                <multipliers-list>
+                                    <multiplication-instruction>
+                                        <empty>
+                        407   OF
+                        <alternatives-list>
+                            <alternative>
+                                <expression>
+                                    <multiplier>
+                                        <variable-identifier>
+                                            <identifier>
+                                                1004   C
+                                    <multipliers-list>
+                                        <multiplication-instruction>
+                                            <empty>
+                                3   :
+                                    5   /
+                                    <statements-list>
+                                        <statement>
+                                            404   LOOP
+                                            <statements-list>
+                                                <empty>
+                                            405   ENDLOOP
+                                            4   ;
+                                        <statements-list>
+                                            <empty>
+                                    6   \
+                            <alternatives-list>
+                                <alternative>
+                                    <empty>
+                        408   ENDCASE
+                        4   ;
+                    <statements-list>
+                        <empty>
+            403   END
+        2   .
+

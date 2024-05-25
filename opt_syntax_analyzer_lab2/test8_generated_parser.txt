@@ -1,0 +1,20 @@
+<signal-program>
+    <program>
+        401   PROGRAM
+        <procedure-identifier>
+            <identifier>
+                1001   PARSERTEST8
+        4   ;
+        <block>
+            402   BEGIN
+            <statements-list>
+                <empty>
+
+Lexical error on Line 13 Column 16: Illegal symbol(s): +-
+
+Syntactic error on Line 5 Column 26: Must be multiplication instruction
+Syntactic error on Line 5 Column 26: Keyword "OF" is passed
+Syntactic error on Line 5 Column 26: Keyword "ENDLOOP" is passed
+Syntactic error on Line 5 Column 26: Keyword "ENDLOOP" is passed
+Syntactic error on Line 5 Column 26: Keyword "END" is passed
+

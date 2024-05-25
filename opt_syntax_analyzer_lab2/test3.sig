@@ -1,0 +1,27 @@
+PROGRAM PARSERTEST3;
+	BEGIN 
+		CASE COUNT OF COUNT * 50:
+			/
+				CASE COUNT1 OF COUNT1 / 25: 
+				/
+					CASE COUNT2 OF 222 MOD COUNT2:
+					/
+						CASE COUNT3 OF ENDCASE;
+					\
+					ENDCASE;
+				\
+				ENDCASE;
+			\
+		ENDCASE;
+	END.
+
+PROGRAM PARSERTEST33 ;
+    BEGIN
+    	CASE 2 OF
+		ENDCASE ;
+		CASE 3 OF
+		ENDCASE ;
+		CASE 4 OF
+		ENDCASE ;
+		(************ COMMENT ************)
+    END.

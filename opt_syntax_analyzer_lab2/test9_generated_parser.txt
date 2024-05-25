@@ -1,0 +1,19 @@
+<signal-program>
+    <program>
+        401   PROGRAM
+        <procedure-identifier>
+            <identifier>
+                1001   PARSERTEST9
+        4   ;
+        <block>
+            402   BEGIN
+            <statements-list>
+                <empty>
+
+Lexical error on Line 7 Column 21: Illegal symbol(s): case
+
+Syntactic error on Line 7 Column 21: "\ or /" is passed after the "OF :"
+Syntactic error on Line 7 Column 21: Keyword "ENDCASE" is passed
+Syntactic error on Line 7 Column 21: "\ or /" is passed after the "OF :"
+Syntactic error on Line 7 Column 21: Keyword "ENDCASE" is passed
+
